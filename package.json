@@ -1,0 +1,19 @@
+{
+  "name": "tailwindcss-html-boilerplate",
+  "version": "1.0.0",
+  "description": "This is a starting point for HTML Tailwind projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss ./src/css/tailwind.css -o ./public/css/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {
+    "postcss-cli": "^8.3.1"
+  }
+}
